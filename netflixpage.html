@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+
+    <header class="navbar">
+      <div class="logo"></div>
+      <img class="nav__logo" src="netflixlogo.png" alt="" />
+      <nav>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">TV Shows</a></li>
+              <li><a href="#">Movies</a></li>
+              <li><a href="#">New and Popular</a></li>
+              <li><a href="#">My List</a></li>
+              <li><a href="#">Browse by languages</a></li>
+          </ul>
+      </nav>
+  </header>
+
+    <!-- header -->
+    <header class="nf">
+      <div class="main">
+        <h1 class="heading">FOOL ME ONCE</h1>
+        <div class="banner__buttons">
+          <button class="head_button">Play</button>
+          <button class="head_button">More Info</button>
+        </div>
+        <h1 class="head_desc">
+            When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.
+        </h1>
+       
+      </div>
+      <div class="head_fade"></div>
+    </header>
+
+    <div class="part">
+      <h2>Award-Winning US TV Shows</h2>
+      <div class="part_div">
+        <img class="part__poster" src="friends.png" alt="" />
+
+        <img class="part__poster" src="wed.png" alt="" />
+
+        <img class="part__poster" src="bigbang.png" alt="" />
+
+        <img class="part__poster" src="walking.png" alt="" />
+
+        <img class="part__poster " src="brooklyn.png" alt="" />
+
+      </div>
+    </div>
+
+    <!-- TV Shows Based on Manga -->
+    <div class="part">
+      <h2>TV Shows Based on Manga</h2>
+      <div class="part_div">
+        <img class="part__poster" src="jjk.png" alt="" />
+
+        <img class="part__poster" src="sxf.png" alt="" />
+
+        <img class="part__poster" src="naruto.png" alt="" />
+
+        <img class="part__poster" src="haikyuu.png" alt="" />
+
+        <img class="part__poster" src="ron.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Top Picks -->
+    <div class="part">
+      <h2>Top Picks</h2>
+      <div class="part_div">
+        <img class="part__poster" src="tour.png" alt="" />
+
+        <img class="part__poster" src="doc.png" alt="" />
+
+        <img class="part__poster" src="swat.png" alt="" />
+
+        <img class="part__poster" src="lucifer.png" alt="" />
+
+        <img class="part__poster" src="suits.png" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Alien Sci-fi Movies -->
+    <div class="part">
+      <h2>Alien Sci-fi Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="pacific.png" alt="" />
+
+        <img class="part__poster" src="battleship.png" alt="" />
+
+        <img class="part__poster" src="beyond.png" alt="" />
+
+        <img class="part__poster" src="battle.png" alt="" />
+
+        <img class="part__poster" src="transformers.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Comedy Movies -->
+    <div class="part">
+      <h2>Comedy Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="super.png" alt="" />
+
+        <img class="part__poster" src="bay.png" alt="" />
+
+        <img class="part__poster" src="grown.png" alt="" />
+
+        <img class="part__poster" src="han.png" alt="" />
+
+        <img class="part__poster" src="ci.png" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Horror Movies -->
+    <div class="part">
+      <h2>Horror Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="run.png" alt="" />
+
+        <img class="part__poster" src="bird.png" alt="" />
+
+        <img class="part__poster" src="chucky.png" alt="" />
+
+        <img class="part__poster" src="veronica.png" alt="" />
+
+        <img class="part__poster" src="mirrors.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Documentaries -->
+    <div class="part">
+      <h2>Documentaries</h2>
+      <div class="part_div">
+        <img class="part__poster" src="mumbai.png" alt="" />
+
+        <img class="part__poster" src="curry.png" alt="" />
+
+        <img class="part__poster" src="ele.png" alt="" />
+
+        <img class="part__poster" src="horizon.png" alt="" />
+
+        <img class="part__poster" src="vol.png" alt="" />
+
+      </div>
+    </div>
+
+    <!-- Children & Family Movies -->
+    <div class="part">
+      <h2>Children & Family Movies</h2>
+      <div class="part_div">
+        <img class="part__poster" src="matilda.png" alt="" />
+
+        <img class="part__poster" src="angry.png" alt="" />
+
+        <img class="part__poster" src="spy.png" alt="" />
+
+        <img class="part__poster" src="kung.png" alt="" />
+
+        <img class="part__poster" src="stuart.png" alt="" />
+
+      </div>
+    </div>
+
+    <script>
+      const nav = document.getElementById('nav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+          nav.classList.add('nav__black');
+        } else {
+          nav.classList.remove('nav__black');
+        }
+      });
+    </script>
+  </body>
+</html>
